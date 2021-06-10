@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Asul&family=Bungee+Outline&family=Fascinate&family=Fascinate+Inline&family=Fjord+One&family=Londrina+Shadow&display=swap');
 /* 
 font-family: 'Bungee Outline', cursive;
@@ -6,33 +7,36 @@ font-family: 'Fascinate Inline', cursive;
 font-family: 'Londrina Shadow', cursive; 
 font-family: 'Asul', sans-serif;
 font-family: 'Fjord One', serif; */
+/* font-family: 'Roboto', sans-serif; */
 
 body{
     margin: 0;
-    font-family:'Asul', sans-serif;
+    font-family:'Roboto', sans-serif;
+    background: url(https://besthqwallpapers.com/Uploads/6-11-2017/27291/thumb2-filmoscope-4k-retro-smoke-cinema.jpg) center/cover no-repeat
 }
 
 h1{
     font-family:'Bungee Outline', cursive;
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
+    margin: 2%;
+    color: black;
 }
 
 
 
 #hero{
-    background-color: pink;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
     width: 60%;
     margin: auto;
     display: flex;
+    border-radius: 6%;
 }
 
 #container_poster>img {
-    width: 90%;
-    padding-right: 40%;
-    padding-bottom: 30%;
-    margin: 6% 0 6% 6%;
-    background-color: black;
+    width: 300px;
+    margin: 15% 0 0 10%;
 
 }
 
@@ -49,7 +53,14 @@ h3{
     width: 50%;
     height: 40px;
     margin-left: 25%;
-    font-family:'Asul', sans-serif ;
+    margin-top: 5%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E0B6A4;
+}
+
+#trailer:hover{
+    background-color: #759BA8;
+    transition: 1s;
 }
 
 #btnWrap{
@@ -67,16 +78,23 @@ h3{
   .right {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
+    margin-right: 10px;
   }
   
   .left {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
+    margin-left: 10px;
   }
 
   #newarrow{
-    background-color: white;
+    background-color: #759BA8;
     border-radius: 60%;
     padding: 15px;
     margin: 17px 15px;
+  }
+
+  #newarrow:hover{
+      background-color: #B99489;
+      transition: 1s;
   }
