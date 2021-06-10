@@ -27,12 +27,13 @@ h1{
     display: flex;
 }
 
-#container_poster{
-    
+#container_poster>img {
+    width: 90%;
     padding-right: 40%;
     padding-bottom: 30%;
     margin: 6% 0 6% 6%;
     background-color: black;
+
 }
 
 #content{
