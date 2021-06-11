@@ -75,12 +75,10 @@ h3{
       display: none;
   }
 
-<<<<<<< HEAD
   div{
-      margin-left: 4%;
-=======
-  #movieTitleOne, #movieTitleTwo, #movieTitleThree , #movieTitleFour {
+      margin-left: 4%;}
+  
+      #movieTitleOne, #movieTitleTwo, #movieTitleThree , #movieTitleFour {
       font-size: 1rem;
       font-family: 'Courier New', Courier, monospace;
->>>>>>> 0e103e8ce822dd32536ce3ef4bd01131bca3ddbb
   }
