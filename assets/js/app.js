@@ -3,12 +3,10 @@ let movieTwo = document.getElementById("container_posterTwo");
 let movieThree = document.getElementById("container_posterThree");
 let movieFour = document.getElementById("container_posterFour");
 
-let movieTitle1 = document.getElementById("movieTitleOne")
-let movieTitle2 = document.getElementById("movieTitleTwo")
-let movieTitle3 = document.getElementById("movieTitleThree")
-let movieTitle4 = document.getElementById("movieTitleFour")
-
-
+let movieTitle1 = document.getElementById("movieTitleOne");
+let movieTitle2 = document.getElementById("movieTitleTwo");
+let movieTitle3 = document.getElementById("movieTitleThree");
+let movieTitle4 = document.getElementById("movieTitleFour");
 
 
 
@@ -17,10 +15,6 @@ fetch('https://api.themoviedb.org/3/discover/movie?api_key=f625a82932aa570e803ce
     .then(response => response.json())
     .then(json => {
         console.log(json)
-
-
-
-
 
         movieOne.innerHTML = `<img src="https://image.tmdb.org/t/p/original${json.results[16].poster_path}" >`
         movieTwo.innerHTML = `<img src="https://image.tmdb.org/t/p/original${json.results[9].poster_path}" >`
@@ -32,10 +26,7 @@ fetch('https://api.themoviedb.org/3/discover/movie?api_key=f625a82932aa570e803ce
         movieTitle3.innerHTML = `${json.results[7].original_title}`
         movieTitle4.innerHTML = `${json.results[4].original_title}`
 
-
-
-
-    })
+    });
 
 
 // When the user clicks on div, open the popup
