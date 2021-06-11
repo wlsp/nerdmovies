@@ -12,7 +12,7 @@ font-family: 'Fjord One', serif; */
 body{
     margin: 0;
     font-family:'Roboto', sans-serif;
-    background: url(https://besthqwallpapers.com/Uploads/6-11-2017/27291/thumb2-filmoscope-4k-retro-smoke-cinema.jpg) center/cover no-repeat
+    background: url(https://besthqwallpapers.com/Uploads/6-11-2017/27291/thumb2-filmoscope-4k-retro-smoke-cinema.jpg) center/cover no-repeat;
 }
 
 h1{
@@ -31,10 +31,11 @@ h1{
     width: 60%;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     border-radius: 6%;
 }
 
-#container_poster>img {
+img {
     width: 300px;
     margin: 15% 0 0 10%;
 
@@ -49,16 +50,17 @@ h3{
     font-size: 2rem;
 }
 
-#trailer {
+.btn {
     width: 50%;
     height: 40px;
     margin-left: 25%;
     margin-top: 5%;
     font-family: 'Roboto', sans-serif;
     background-color: #E0B6A4;
+    border: none;
 }
 
-#trailer:hover{
+.btn:hover{
     background-color: #759BA8;
     transition: 1s;
 }
