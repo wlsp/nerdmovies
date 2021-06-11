@@ -87,14 +87,14 @@ h3{
     margin-left: 10px;
   }
 
-  #newarrow{
+  .newarrow{
     background-color: #759BA8;
     border-radius: 60%;
     padding: 15px;
     margin: 17px 15px;
   }
 
-  #newarrow:hover{
+  .newarrow:hover{
       background-color: #B99489;
       transition: 1s;
   }
