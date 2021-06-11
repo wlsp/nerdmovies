@@ -13,6 +13,7 @@ body{
     margin: 0;
     font-family:'Roboto', sans-serif;
     background: url(https://besthqwallpapers.com/Uploads/6-11-2017/27291/thumb2-filmoscope-4k-retro-smoke-cinema.jpg) center/cover no-repeat;
+    background-attachment: fixed;
 }
 
 h1{
@@ -32,7 +33,7 @@ h1{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    border-radius: 6%;
+    margin-bottom: 5%;
 }
 
 img {
@@ -53,16 +54,15 @@ h3{
 .btn {
     width: 50%;
     height: 40px;
-    margin-left: 25%;
+    margin-left: 33%;
     margin-top: 5%;
     font-family: 'Roboto', sans-serif;
-    background-color: #E0B6A4;
-    border: none;
+    background-color: antiquewhite;
+    border-radius: 5px;
 }
 
 .btn:hover{
-    background-color: #759BA8;
-    transition: 1s;
+    background: linear-gradient(to right, #E0B6A4, #66899A);
 }
 
 #btnWrap{
@@ -70,37 +70,11 @@ h3{
     justify-content: center;
 }
 
-.arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 10px;
-  }
-
-  .right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    margin-right: 10px;
-  }
-  
-  .left {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-    margin-left: 10px;
-  }
-
-  .newarrow{
-    background-color: #759BA8;
-    border-radius: 60%;
-    padding: 15px;
-    margin: 17px 15px;
-  }
-
-  .newarrow:hover{
-      background-color: #B99489;
-      transition: 1s;
-  }
 
   iframe {
       display: none;
+  }
+
+  div{
+      margin-left: 4%;
   }
