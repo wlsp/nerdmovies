@@ -12,15 +12,26 @@ fetch('https://api.themoviedb.org/3/discover/movie?api_key=f625a82932aa570e803ce
     .then(json => {
         console.log(json)
 
+
+
+
+
+        moviePoster.innerHTML =
+            `<img src="https://image.tmdb.org/t/p/original${json.results[16].poster_path}" >`
+
         right.addEventListener("click", nextClick)
 
 
         function nextClick() {
             if (right) {
                 moviePoster.innerHTML =
-                    `<img src="https://image.tmdb.org/t/p/original${json.results[16].poster_path}" >`
+                    `<img src="https://image.tmdb.org/t/p/original${json.results[9].poster_path}" >`
+            } else if (right) {
+                moviePoster.innerHTML =
+                    `<img src="https://image.tmdb.org/t/p/original${json.results[7].poster_path}" >`
             }
         }
+
 
     })
 
