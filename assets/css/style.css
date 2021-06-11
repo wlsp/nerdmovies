@@ -98,3 +98,7 @@ h3{
       background-color: #B99489;
       transition: 1s;
   }
+
+  iframe {
+      display: none;
+  }
