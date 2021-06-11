@@ -1,87 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Nerdmovies</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <title>Nerdmovies</title>
-</head>
+  <body>
+    <h1>Les films préférés de Georg</h1>
+    <section id="hero">
+      <div id="movieOne">
+        <figure id="container_posterOne"></figure>
+        <article id="content">
+          <h1 id="movieTitleOne"></h1>
+          <p id="movieDescriptionOne"></p>
+          <div class="popup" onclick="myFunctionOne()">
+            <button class="btn" id="trailerOne">ZUM TRAILER</button>
+            <span class="popuptext" id="myPopupOne"
+              ><iframe
+                class="filme"
+                id="filmeOne"
+                width="680"
+                height="380"
+                src="https://www.youtube.com/embed/m-FApZ72AXo"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe
+            ></span>
+          </div>
+        </article>
+      </div>
 
-<body>
-  <h1>Les films préférés de Georg</h1>
-  <section id="hero">
+      <div id="movieTwo">
+        <figure id="container_posterTwo"></figure>
+        <article id="content">
+          <h1 id="movieTitleTwo"></h1>
+          <p id="movieDescriptionTwo"></p>
+          <div class="popup" onclick="myFunctionTwo()">
+            <button class="btn" id="trailerTwo">ZUM TRAILER</button>
+            <span class="popuptext" id="myPopupTwo"
+              ><iframe
+                class="filme"
+                id="filmeTwo"
+                width="680"
+                height="380"
+                src="https://www.youtube.com/embed/E_arFDFvBI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe
+            ></span>
+          </div>
+        </article>
+      </div>
 
+      <div id="movieThree">
+        <figure id="container_posterThree"></figure>
+        <article id="content">
+          <h1 id="movieTitleThree"></h1>
+          <p id="movieDescriptionThree"></p>
+          <div class="popup" onclick="myFunctionThree()">
+            <button class="btn" id="trailerThree">ZUM TRAILER</button>
+            <span class="popuptext" id="myPopupThree"
+              ><iframe
+                allowfullscreen="true"
+                class="filme"
+                id="filmeThree"
+                frameborder="0"
+                scrolling="no"
+                width="680"
+                height="380"
+                src="https://www.arte.tv/player/v6/index.php?json_url=https%3A%2F%2Fapi.arte.tv%2Fapi%2Fplayer%2Fv2%2Fconfig%2Fde%2F099698-000-A&lang=de&autoplay=true&mute=0"
+              ></iframe
+            ></span>
+          </div>
+        </article>
+      </div>
 
-    <div id="movieOne">
-      <figure id="container_posterOne"></figure>
-      <article id="content">
-        <h1 id="movieTitleOne"></h1>
-        <p id="movieDescriptionOne"></p>
-        <button class="btn" id="trailerOne">ZUM TRAILER</button>
-        <iframe class="filme" id="filmeOne" width="680" height="380" src="https://www.youtube.com/embed/m-FApZ72AXo"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-      </article>
-    </div>
+      <div id="movieFour">
+        <figure id="container_posterFour"></figure>
+        <article id="content">
+          <h1 id="movieTitleFour"></h1>
+          <p id="movieDescriptionFour"></p>
+          <div class="popup" onclick="myFunctionFour()">
+            <button class="btn" id="trailerFour">ZUM TRAILER</button>
+            <span class="popuptext" id="myPopupFour"
+              ><iframe
+                width="680"
+                height="380"
+                src="https://www.youtube.com/embed/ewW2g5RP5d4"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe
+            ></span>
+          </div>
+        </article>
+      </div>
+    </section>
 
-
-    <div id="movieTwo">
-      <figure id="container_posterTwo"></figure>
-      <article id="content">
-        <h1 id="movieTitleTwo"></h1>
-        <p id="movieDescriptionTwo"></p>
-        <button class="btn" id="trailerTwo">ZUM TRAILER</button>
-        <iframe class="filme" id="filmeTwo" width="680" height="380" src="https://www.youtube.com/embed/YE_arFDFvBI"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-      </article>
-    </div>
-
-
-    <div id="movieThree">
-      <figure id="container_posterThree"></figure>
-      <article id="content">
-        <h1 id="movieTitleThree"></h1>
-        <p id="movieDescriptionThree"></p>
-        <button class="btn" id="trailerThree">ZUM TRAILER</button>
-        <iframe class="filme" id="filmeThree" width="680" height="380" src="https://www.youtube.com/embed/1r9f0toskk0"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-      </article>
-    </div>
-
-
-    <div id="movieFour">
-      <figure id="container_posterFour"></figure>
-      <article id="content">
-        <h1 id="movieTitleFour"></h1>
-        <p id="movieDescriptionFour"></p>
-        <button class="btn" id="trailerFour">ZUM TRAILER</button>
-        <iframe width="680" height="380" src="https://www.youtube.com/embed/ewW2g5RP5d4" title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-      </article>
-    </div>
-
-  </section>
-
-
-
-
-
-
-  <iframe class="filme" id="filmeFour" width="680" height="380" src="https://www.youtube.com/embed/pwaWilO_ig"
-    title="YouTube video player" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-
-  <script src="assets/js/app.js"></script>
-</body>
-
+    <script src="assets/js/app.js"></script>
+  </body>
 </html>

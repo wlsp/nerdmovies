@@ -38,3 +38,20 @@ fetch('https://api.themoviedb.org/3/discover/movie?api_key=f625a82932aa570e803ce
     })
 
 
+// When the user clicks on div, open the popup
+const  myFunctionOne = () => {
+    var popup = document.getElementById("myPopupOne");
+    popup.classList.toggle("show");
+  }
+  const  myFunctionTwo = () => {
+    var popup = document.getElementById("myPopupTwo");
+    popup.classList.toggle("show");
+  }
+  const  myFunctionThree = () => {
+    var popup = document.getElementById("myPopupThree");
+    popup.classList.toggle("show");
+  }
+  const  myFunctionFour = () => {
+    var popup = document.getElementById("myPopupFour");
+    popup.classList.toggle("show");
+  }
