@@ -1,2 +1,2 @@
-##Gruppenprojekt
+Gruppenprojekt
 Begleitend zur Weiterbildung 
