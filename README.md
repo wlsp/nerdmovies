@@ -1,2 +1,2 @@
-##H1**Gruppenprojekt**
+##H1 **Gruppenprojekt**
 Begleitend zur Weiterbildung 
